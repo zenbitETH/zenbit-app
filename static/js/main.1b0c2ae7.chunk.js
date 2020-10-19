@@ -1,2 +1,0 @@
-(this.webpackJsonpzenbit=this.webpackJsonpzenbit||[]).push([[0],[,,,function(e,n,t){e.exports=t(10)},,,,,function(e,n,t){},function(e,n,t){},function(e,n,t){"use strict";t.r(n);var a=t(0),i=t.n(a),c=t(2),l=t.n(c);t(8),t(9);var r=function(){return i.a.createElement("div",{className:"App"},i.a.createElement("div",null,i.a.createElement("p",null,"Zenbit official application. Hi!")))};l.a.render(i.a.createElement(i.a.StrictMode,null,i.a.createElement(r,null)),document.getElementById("root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.1b0c2ae7.chunk.js.map
