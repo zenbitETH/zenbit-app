@@ -24,15 +24,45 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  margin-right: 8vmin;
+  color: #F5F3F3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:active {
+  color: #FF9400;
+}
+
+.header {
+  background-color: rgba(20, 20, 20, 0.4);
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  top: 0;
+}
+
+.head {
+  display: inline;
+  margin: 0 20% 0 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  color: #EEE;
+  font-size: 40px;
+}
+
+.zenbit-logo {
+  align-content: left;
+  display: inline;
+}
+
+.z-links {
+  display: inline;
+  margin: auto 0 auto auto;
+  align-content: right;
+  font-size: 20px;
 }

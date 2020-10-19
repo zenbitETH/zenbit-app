@@ -1,13 +1,18 @@
 import React from 'react';
+import Header  from "./Header"
+import HeadContent from "./HeadContent"
+import Tasks from "./Tasks"
+import Footer from "./Footer"
 import '../style/App.css';
 
 function App() {
   return (
     <div className="App">
       <div>
-        <p>
-          Zenbit official application
-        </p>
+        <Header />
+        <HeadContent />
+        <Tasks />
+        <Footer />
       </div>
     </div>
   );
