@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c42693578036e680c555cd50d783bf6d",
+    "revision": "7fca66d8e7a2446532c6c336dd870f9e",
     "url": "/zenbit-app/index.html"
   },
   {
-    "revision": "5672e468177bb94e2ab3",
+    "revision": "2cec9874d9ec3b34e533",
     "url": "/zenbit-app/static/css/main.a98b7390.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zenbit-app/static/js/2.03b55525.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5672e468177bb94e2ab3",
-    "url": "/zenbit-app/static/js/main.4c8464a1.chunk.js"
+    "revision": "2cec9874d9ec3b34e533",
+    "url": "/zenbit-app/static/js/main.281ffadc.chunk.js"
   },
   {
     "revision": "196457cedeb1680b1ffc",
