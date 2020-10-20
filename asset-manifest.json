@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/zenbit-app/static/css/main.7d6d076d.chunk.css",
-    "main.js": "/zenbit-app/static/js/main.501ed2c0.chunk.js",
-    "main.js.map": "/zenbit-app/static/js/main.501ed2c0.chunk.js.map",
+    "main.css": "/zenbit-app/static/css/main.a98b7390.chunk.css",
+    "main.js": "/zenbit-app/static/js/main.4c8464a1.chunk.js",
+    "main.js.map": "/zenbit-app/static/js/main.4c8464a1.chunk.js.map",
     "runtime-main.js": "/zenbit-app/static/js/runtime-main.6fe1c3ff.js",
     "runtime-main.js.map": "/zenbit-app/static/js/runtime-main.6fe1c3ff.js.map",
-    "static/js/2.f84f1c78.chunk.js": "/zenbit-app/static/js/2.f84f1c78.chunk.js",
-    "static/js/2.f84f1c78.chunk.js.map": "/zenbit-app/static/js/2.f84f1c78.chunk.js.map",
+    "static/js/2.03b55525.chunk.js": "/zenbit-app/static/js/2.03b55525.chunk.js",
+    "static/js/2.03b55525.chunk.js.map": "/zenbit-app/static/js/2.03b55525.chunk.js.map",
     "index.html": "/zenbit-app/index.html",
-    "precache-manifest.c437e9d419e1a28c209ba1e84d0a340b.js": "/zenbit-app/precache-manifest.c437e9d419e1a28c209ba1e84d0a340b.js",
+    "precache-manifest.cc5d3fdd829feca2344b7ecb0b3a3ab7.js": "/zenbit-app/precache-manifest.cc5d3fdd829feca2344b7ecb0b3a3ab7.js",
     "service-worker.js": "/zenbit-app/service-worker.js",
-    "static/css/main.7d6d076d.chunk.css.map": "/zenbit-app/static/css/main.7d6d076d.chunk.css.map",
-    "static/js/2.f84f1c78.chunk.js.LICENSE.txt": "/zenbit-app/static/js/2.f84f1c78.chunk.js.LICENSE.txt"
+    "static/css/main.a98b7390.chunk.css.map": "/zenbit-app/static/css/main.a98b7390.chunk.css.map",
+    "static/js/2.03b55525.chunk.js.LICENSE.txt": "/zenbit-app/static/js/2.03b55525.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6fe1c3ff.js",
-    "static/js/2.f84f1c78.chunk.js",
-    "static/css/main.7d6d076d.chunk.css",
-    "static/js/main.501ed2c0.chunk.js"
+    "static/js/2.03b55525.chunk.js",
+    "static/css/main.a98b7390.chunk.css",
+    "static/js/main.4c8464a1.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zenbit-app/precache-manifest.c437e9d419e1a28c209ba1e84d0a340b.js"
+  "/zenbit-app/precache-manifest.cc5d3fdd829feca2344b7ecb0b3a3ab7.js"
 );
 
 self.addEventListener('message', (event) => {
