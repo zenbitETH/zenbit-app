@@ -13,5 +13,6 @@ code {
 }
 
 .root-ele {
-  background-image: linear-gradient(#3D356D, #b7b0df);
+  background: rgb(61,53,109);
+  background: linear-gradient(rgba(61,53,109,1) 90%, rgba(240,240,240,1) 95%);
 }
