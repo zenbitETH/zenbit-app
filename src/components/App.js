@@ -1,7 +1,7 @@
 import React from 'react';
 import Header  from "./Header"
 import HeadContent from "./HeadContent"
-import Tasks from "./Tasks"
+import TasksContainer from "./TasksContainer"
 import Footer from "./Footer"
 import '../style/App.css';
 
@@ -10,11 +10,16 @@ function App() {
     <div className="App">
       <div>
         <Header />
+      </div>
+      <div className="app-container">
         <HeadContent />
-        <Tasks />
+        <TasksContainer />
+      </div>
+      <div>
         <Footer />
       </div>
     </div>
+
   );
 }
 
