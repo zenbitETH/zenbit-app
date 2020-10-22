@@ -12,9 +12,12 @@ function Header() {
                 
                 <div className="z-links">
                     <nav>
-                        <a href="#">Inicio</a>
-                        <a href="#">Recompensas</a>
-                        <a href="#">Contacto</a>
+                        <a className="header-element" 
+                        href="#">Inicio</a>
+                        <a className="header-element" 
+                        href="#">Recompensas</a>
+                        <a className="header-element" 
+                        href="#">Contacto</a>
                     </nav>
                 </div>
 
