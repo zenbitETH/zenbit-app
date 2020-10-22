@@ -153,6 +153,10 @@ iframe {
   padding: 5px;
 }
 
+.image-section {
+  height: "400px";
+}
+
 .google-form-frame {
   width: 35em;
 }
@@ -176,7 +180,7 @@ iframe {
 
 }
 
-a {
+.header-element {
   text-decoration: none;
   margin-right: 5vmin;
   color: #F5F3F3;
@@ -208,13 +212,13 @@ a:active {
 
 .button-submit {
   border-radius: 10px;
-  width: 100%;
+  width: 30%;
   background-color: #FF9400;
-  font-size: 17px;
+  font-size: 20px;
   color: #FAFAFA;
   border: none;
-  height: 40px;
-  margin-top: 25px;
+  height: 50px;
+  margin-right: 5vmin;
 }
 
 .head {
