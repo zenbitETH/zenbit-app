@@ -21,8 +21,7 @@ function RegisterView() {
             
             <div className="google-form-container">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffKTPH9pO4KCINyKrHTcihekYN2kytVj_ZJGqGmh-CQIWeag/viewform?embedded=true"
-            className="google-form-frame"
- f          rameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+            className="google-form-frame">Cargando…</iframe>
             </div>
             
         </div>
