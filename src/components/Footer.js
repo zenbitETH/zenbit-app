@@ -5,11 +5,11 @@ import zl from "../assets/zl.png"
 function Footer() {
     return(
         <div>
-            <div style={{height: "400px"}}>
+            <div className="image-section">
                 <img src={zl} height="400em"
                 className="logo-footer"/>
             </div>
-            <div class="footer">
+            <div className="footer">
                     <div className="zenbit-rights">
                         <p>
                             Zenbit. Todos los derechos reservados
