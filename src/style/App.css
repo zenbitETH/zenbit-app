@@ -24,18 +24,34 @@
 }
 
 .footer {
-  margin-top: 40px;
   left: 0;
   bottom: 0;
-  height: 80px;
   width: 100%;
-  background-color: #FAC819;
-  color: black;
+  height: 80px;
+  display: flex;
+  color: #FAC819;
+  margin-top: 10px;
   text-align: center;
+  background-color: rgba(10, 10, 10, 0.9);;
 }
 
 .footer-info {
   margin: 0;
+}
+
+.zenbit-rights {
+  margin-left: 50px;
+}
+
+.contact-container {
+  display: flex;
+  margin-left: 100px;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.contact-view {
+  margin-left: 5em;
 }
 
 .head3 {
@@ -63,6 +79,8 @@
   font-size: 20px;
   color: #FAC819;
   text-align: justify;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 iframe {
@@ -78,7 +96,8 @@ iframe {
 
 .task-container-register {
   display: flex;
-  margin: 100px auto 0 auto;
+  margin: 100px auto 150px auto;
+
 }
 
 .videos {
@@ -124,11 +143,26 @@ iframe {
 
 }
 
+.google-form-container {
+  background-color: #fafafa;
+  border-radius: 5px;
+  height: 500px;
+  width: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px;
+}
+
+.google-form-frame {
+  width: 35em;
+}
+
 .form-container {
   padding-top: 30px;
   padding-right: 60px;
   padding-left: 60px;
   padding-bottom: 20px;
+
 }
 
 .info-view {
@@ -153,7 +187,7 @@ a:active {
 }
 
 .header {
-  background-color: rgba(20, 20, 20, 0.4);
+  background-color: rgba(20, 20, 20, 0.8);
   overflow: hidden;
   height: 50px;
   width: 100%;

@@ -15,7 +15,7 @@ class TasksContainer extends React.Component {
 
         }
         this.initComponent = this.initComponent.bind(this)
-        //this.initComponent()
+        this.initComponent()
     }
 
     render() {

@@ -1,12 +1,38 @@
 import React from "react"
+import zl from "../assets/zl.png"
 
 
 function Footer() {
     return(
-        <div className="footer">
-            <p className="footer-info">
-                Footer
-            </p>
+        <div>
+            <div style={{height: "400px"}}>
+                <img src={zl} height="400em"
+                className="logo-footer"/>
+            </div>
+            <div class="footer">
+                    <div className="zenbit-rights">
+                        <p>
+                            Zenbit. Todos los derechos reservados
+                        </p>
+                    </div>
+                    <div className="contact-container">
+                        <div className="contact-view">
+                            <p>
+                                Medium
+                            </p>
+                        </div>
+                        <div className="contact-view">
+                            <p>
+                                Twitter
+                            </p>
+                        </div>
+                        <div className="contact-view">
+                            <p>
+                                Facebook
+                            </p>
+                        </div>
+                    </div>
+            </div>
         </div>
     )
 }
