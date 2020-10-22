@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a44861aa83c486c8bb1d802ef4f6837",
+    "revision": "0f0c75757973d1fcd6a860561e8b9b41",
     "url": "/zenbit-app/index.html"
   },
   {
