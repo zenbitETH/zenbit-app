@@ -15,9 +15,9 @@ function Header() {
                         <a className="header-element" 
                         href="#">Inicio</a>
                         <a className="header-element" 
-                        href="#">Recompensas</a>
+                        href="#rewards">Recompensas</a>
                         <a className="header-element" 
-                        href="#">Contacto</a>
+                        href="#contact">Contacto</a>
                     </nav>
                 </div>
 
