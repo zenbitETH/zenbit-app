@@ -3,7 +3,7 @@ import React from "react"
 
 function RegisterView() {
     return(
-        <div className="task-container-register ">
+        <div id="contact" className="task-container-register ">
             <div className="info-view">
                 <div className="info-container">
                     <h3 className="head-register">
