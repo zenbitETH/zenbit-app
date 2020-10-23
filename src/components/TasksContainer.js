@@ -4,9 +4,12 @@ import SignInComponent from "./contract_tasks/SignInComponent"
 import KeysManagement from "./contract_tasks/KeysManagement"
 import AssetsManagement from "./contract_tasks/AssetsManagement"
 import RegisterView from "./contract_tasks/RegisterView"
-
+const ZbABI = require("../assets/ZenbitRewards.json")
+var contract = require("@truffle/contract");
 let web3;
+let instance;
 let accounts;
+let ZenbitContract;
 
 class TasksContainer extends React.Component {
 
@@ -18,21 +21,28 @@ class TasksContainer extends React.Component {
         this.initComponent = this.initComponent.bind(this)
         //this.initComponent();
         this.enableMetamask = this.enableMetamask.bind(this)
+        this.hashInput = this.hashInput.bind(this)
         this.initComponent()
+    }
+
+    hashInput(hash) {
+        this.setState({
+            tx_hash: hash.tx
+        })
     }
 
     render() {
         return(
-            <div>
+            <div id="rewards">
                 <button type="submit"
                 style={{display: this.state.buttonVisibility}}
                 onClick={this.enableMetamask}
                 className="button-submit">
                     Conectar Metamask
                 </button>
-                <SignInComponent />
-                <KeysManagement />
-                <AssetsManagement />
+                <SignInComponent connector={this.state} hash={this.hashInput}/>
+                <KeysManagement connector={this.state}/>
+                <AssetsManagement connector={this.state}/>
                 <RegisterView />
             </div>
     )}
@@ -55,6 +65,19 @@ class TasksContainer extends React.Component {
         }
 
         accounts = await web3.eth.getAccounts()
+
+        ZenbitContract = contract({
+            abi: ZbABI.abi
+        })
+        ZenbitContract.setProvider(web3.currentProvider)
+        instance = await ZenbitContract.at(
+            "0x4eC6f0d59Fd05D88EDC9b6397A4707De775978e1"
+        )
+        this.setState({
+            _instance: instance,
+            _accounts: accounts
+        })
+
         if(accounts.length === 0) {
             this.setButtonVisibility("initial")
         } else {
@@ -72,7 +95,6 @@ class TasksContainer extends React.Component {
             buttonVisibility: isVisible
         })
     }
-
 }
 
 export default TasksContainer
