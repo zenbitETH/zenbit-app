@@ -199,11 +199,18 @@ a:active {
 }
 
 .input-form {
-  height: 25px;
-  border: none;
+  height: 103%;
+  border: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
   background-color: #EEE;
   font-size: 13px;
-  border-radius: 5px;
+  border-radius: 3px;
+  width: 60%;
+  box-sizing: content-box;
+  margin: 0;
 }
 
 ::placeholder {
@@ -219,6 +226,24 @@ a:active {
   border: none;
   height: 50px;
   margin-right: 5vmin;
+}
+
+.button-submit-contract {
+  width: 30%;
+  border: none;
+  height: 100%;
+  padding: 2px;
+  font-size: 15px;
+  color: #FAFAFA;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: content-box;
+  background-color: #FF9400;
+}
+
+.general-input {
+  height: 25px;
+  display: flex;
 }
 
 .head {
