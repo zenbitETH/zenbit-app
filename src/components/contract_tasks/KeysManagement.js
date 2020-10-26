@@ -53,17 +53,17 @@ class KeysManagement extends React.Component {
                 <div className="info-view">
                     <div className="info-container">
                         <h3 className="head3">
-                            Tarea 1: Gestión de llaves públicas y privadas con Metamask
+                            Tarea 2: Gestión básica de activos digitales 
                         </h3>
                         <p className="p-desc">
-                            Mira el video y pega tu dirección pública de metamask para obtener:
+                            Mira el video y pega la transacción de la Tarea 1
                         </p>
                         <p className="chd">
-                            50 zNBT y un certificado de Ciber Seguridad Nivel 1 CS1
+                            100 zNBT y un certificado de Ciber Seguridad Nivel 2 CS2
                         </p>
                         <div className="general-input">
                             <input type="text"
-                                placeholder="Dirección pública de Metamask"
+                                placeholder="Pega la dirección de la transacción de la Tarea 1"
                                 className="input-form"
                                 onChange={this.handleChange}
                             />

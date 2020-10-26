@@ -54,17 +54,17 @@ class SignInComponent extends React.Component {
                 <div className="info-view">
                     <div className="info-container">
                         <h3 className="head3">
-                            TALLER DE GESTIÓN DE LLAVES PÚBLICAS Y PRIVADAS
+                        Tarea 1: Gestión de llaves públicas y privadas con Metamask
                         </h3>
                         <p className="p-desc">
-                            Mira el video y envía tu llave pública aquí para obtener:
+                        Mira el video y pega tu dirección pública de metamask para obtener:
                         </p>
                         <p className="chd">
-                            Certificado de Habilidad Digital
+                        50 zNBT y un certificado de Ciber Seguridad Nivel 1 CS1
                         </p>
                         <div className="general-input">
                             <input type="text"
-                            placeholder="Llave pública"
+                            placeholder="Pega tu llave pública de metamask"
                             className="input-form"
                             onChange={this.handleChange}
                             >
