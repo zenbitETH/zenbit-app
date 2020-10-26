@@ -53,17 +53,17 @@ class KeysManagement extends React.Component {
                 <div className="info-view">
                     <div className="info-container">
                         <h3 className="head3">
-                            GESTION BÁSICA DE ACTIVOS DIGITALES CON METAMASK
+                            Tarea 1: Gestión de llaves públicas y privadas con Metamask
                         </h3>
                         <p className="p-desc">
-                            Mira el video y envía el hash de la transacción previa.
+                            Mira el video y pega tu dirección pública de metamask para obtener:
                         </p>
                         <p className="chd">
-                            Certificado de Habilidad Digital
+                            50 zNBT y un certificado de Ciber Seguridad Nivel 1 CS1
                         </p>
                         <div className="general-input">
                             <input type="text"
-                                placeholder="Hash de transacción"
+                                placeholder="Dirección pública de Metamask"
                                 className="input-form"
                                 onChange={this.handleChange}
                             />
